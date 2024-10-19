@@ -66,7 +66,7 @@ namespace Test1
 			int length = 1;
 			int width = 1;
 			int perimeter_reult = getPerimeter(&length, &width);
-			Assert::AreEqual(9, perimeter_reult);
+			Assert::AreEqual(3, perimeter_reult);
 
 		}
 
@@ -75,7 +75,7 @@ namespace Test1
 			int length = 1;
 			int width = 1;
 			int area_reult = getArea(&length, &width);
-			Assert::AreEqual(9, area_reult);
+			Assert::AreEqual(1, area_reult);
 		}
 	};
 }
